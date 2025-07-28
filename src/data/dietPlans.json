@@ -1,0 +1,547 @@
+
+{
+  "Maharashtra-Veg": {
+    "breakfast": [
+      "Poha",
+      "Upma",
+      "Masala Milk"
+    ],
+    "lunch": [
+      "Bhakri",
+      "Pithla",
+      "Cabbage Sabzi",
+      "Dal",
+      "Rice"
+    ],
+    "evening": [
+      "Sabudana Vada",
+      "Lemon Water"
+    ],
+    "dinner": [
+      "Chapati",
+      "Mixed Veg Curry",
+      "Buttermilk"
+    ]
+  },
+  "Maharashtra-Non-Veg": {
+    "breakfast": [
+      "Anda Bhurji",
+      "Pav",
+      "Masala Chai"
+    ],
+    "lunch": [
+      "Chicken Sukka",
+      "Bhakri",
+      "Dal",
+      "Rice"
+    ],
+    "evening": [
+      "Egg Puff",
+      "Solkadhi"
+    ],
+    "dinner": [
+      "Chicken Curry",
+      "Chapati",
+      "Salad"
+    ]
+  },
+  "Kerala-Veg": {
+    "breakfast": [
+      "Appam with Coconut Stew",
+      "Banana"
+    ],
+    "lunch": [
+      "Parboiled Rice",
+      "Sambar",
+      "Thoran",
+      "Avial"
+    ],
+    "evening": [
+      "Pazham Pori (Banana Fritters)",
+      "Herbal Tea"
+    ],
+    "dinner": [
+      "Idiyappam with Vegetable Kurma"
+    ]
+  },
+  "Kerala-Non-Veg": {
+    "breakfast": [
+      "Mutta Curry with Appam",
+      "Tea"
+    ],
+    "lunch": [
+      "Fish Curry",
+      "Rice",
+      "Sambar",
+      "Thoran"
+    ],
+    "evening": [
+      "Chicken Cutlet",
+      "Black Coffee"
+    ],
+    "dinner": [
+      "Malabar Chicken Curry",
+      "Parotta"
+    ]
+  },
+  "Punjab-Veg": {
+    "breakfast": [
+      "Aloo Paratha with Curd",
+      "Lassi"
+    ],
+    "lunch": [
+      "Rajma Chawal",
+      "Roti",
+      "Salad"
+    ],
+    "evening": [
+      "Paneer Pakora",
+      "Masala Chai"
+    ],
+    "dinner": [
+      "Sarson da Saag",
+      "Makki di Roti"
+    ]
+  },
+  "Punjab-Non-Veg": {
+    "breakfast": [
+      "Omelette",
+      "Toast",
+      "Butter Tea"
+    ],
+    "lunch": [
+      "Butter Chicken",
+      "Naan",
+      "Salad"
+    ],
+    "evening": [
+      "Chicken Tikka",
+      "Buttermilk"
+    ],
+    "dinner": [
+      "Keema Roti",
+      "Onion Salad"
+    ]
+  },
+  "Gujarat-Veg": {
+    "breakfast": [
+      "Thepla",
+      "Chutney",
+      "Masala Chai"
+    ],
+    "lunch": [
+      "Dal",
+      "Bhindi Sabzi",
+      "Khichdi",
+      "Buttermilk"
+    ],
+    "evening": [
+      "Dhokla",
+      "Green Chutney"
+    ],
+    "dinner": [
+      "Roti",
+      "Undhiyu",
+      "Moong Dal"
+    ]
+  },
+  "Gujarat-Non-Veg": {
+    "breakfast": [
+      "Egg Bhurji",
+      "Toast",
+      "Tea"
+    ],
+    "lunch": [
+      "Chicken Curry",
+      "Rice",
+      "Bhindi Fry"
+    ],
+    "evening": [
+      "Chicken Samosa",
+      "Lemon Water"
+    ],
+    "dinner": [
+      "Fish Fry",
+      "Chapati",
+      "Salad"
+    ]
+  },
+  "Tamil Nadu-Veg": {
+    "breakfast": [
+      "Idli",
+      "Sambar",
+      "Coconut Chutney"
+    ],
+    "lunch": [
+      "Rice",
+      "Sambar",
+      "Poriyal",
+      "Rasam"
+    ],
+    "evening": [
+      "Medu Vada",
+      "Filter Coffee"
+    ],
+    "dinner": [
+      "Dosa",
+      "Tomato Chutney"
+    ]
+  },
+  "Tamil Nadu-Non-Veg": {
+    "breakfast": [
+      "Egg Dosa",
+      "Chutney",
+      "Coffee"
+    ],
+    "lunch": [
+      "Chettinad Chicken",
+      "Rice",
+      "Rasam"
+    ],
+    "evening": [
+      "Fish Cutlet",
+      "Tea"
+    ],
+    "dinner": [
+      "Chicken Kurma",
+      "Parotta"
+    ]
+  },
+  "West Bengal-Veg": {
+    "breakfast": [
+      "Luchi with Cholar Dal",
+      "Sandesh"
+    ],
+    "lunch": [
+      "Rice",
+      "Shukto",
+      "Aloo Posto",
+      "Dal"
+    ],
+    "evening": [
+      "Beguni",
+      "Chai"
+    ],
+    "dinner": [
+      "Roti",
+      "Mixed Veg Curry"
+    ]
+  },
+  "West Bengal-Non-Veg": {
+    "breakfast": [
+      "Egg Roll",
+      "Mishti Doi"
+    ],
+    "lunch": [
+      "Maach Bhaja",
+      "Rice",
+      "Dal"
+    ],
+    "evening": [
+      "Chicken Kabiraji",
+      "Tea"
+    ],
+    "dinner": [
+      "Kosha Mangsho",
+      "Luchi"
+    ]
+  },
+  "Rajasthan-Veg": {
+    "breakfast": [
+      "Bajra Roti with Lahsun Chutney"
+    ],
+    "lunch": [
+      "Dal Baati Churma",
+      "Gatte ki Sabzi"
+    ],
+    "evening": [
+      "Mirchi Vada",
+      "Tea"
+    ],
+    "dinner": [
+      "Ker Sangri",
+      "Chapati",
+      "Buttermilk"
+    ]
+  },
+  "Rajasthan-Non-Veg": {
+    "breakfast": [
+      "Egg Roti",
+      "Tea"
+    ],
+    "lunch": [
+      "Laal Maas",
+      "Bajra Roti"
+    ],
+    "evening": [
+      "Mutton Kebab",
+      "Jeera Water"
+    ],
+    "dinner": [
+      "Chicken Curry",
+      "Rice"
+    ]
+  },
+  "Karnataka-Veg": {
+    "breakfast": [
+      "Ragi Dosa",
+      "Coconut Chutney"
+    ],
+    "lunch": [
+      "Bisi Bele Bath",
+      "Raita"
+    ],
+    "evening": [
+      "Mangalore Bonda",
+      "Coffee"
+    ],
+    "dinner": [
+      "Chapati",
+      "Palya",
+      "Rasam"
+    ]
+  },
+  "Karnataka-Non-Veg": {
+    "breakfast": [
+      "Egg Rice",
+      "Tea"
+    ],
+    "lunch": [
+      "Chicken Sukka",
+      "Rice",
+      "Rasam"
+    ],
+    "evening": [
+      "Fish Fry",
+      "Lemon Juice"
+    ],
+    "dinner": [
+      "Mutton Saaru",
+      "Ragi Mudde"
+    ]
+  },
+  "Andhra Pradesh-Veg": {
+    "breakfast": [
+      "Pesarattu",
+      "Ginger Chutney"
+    ],
+    "lunch": [
+      "Pulihora",
+      "Sambar",
+      "Vepudu"
+    ],
+    "evening": [
+      "Punugulu",
+      "Chutney"
+    ],
+    "dinner": [
+      "Dosa",
+      "Tomato Pachadi"
+    ]
+  },
+  "Andhra Pradesh-Non-Veg": {
+    "breakfast": [
+      "Egg Curry with Chapati"
+    ],
+    "lunch": [
+      "Andhra Chicken Curry",
+      "Rice"
+    ],
+    "evening": [
+      "Fish Fry",
+      "Buttermilk"
+    ],
+    "dinner": [
+      "Mutton Curry",
+      "Ragi Sangati"
+    ]
+  },
+  "Assam-Veg": {
+    "breakfast": [
+      "Pitha",
+      "Green Tea"
+    ],
+    "lunch": [
+      "Rice",
+      "Khar",
+      "Masor Tenga (veg substitute)",
+      "Dal"
+    ],
+    "evening": [
+      "Jolpan",
+      "Tea"
+    ],
+    "dinner": [
+      "Roti",
+      "Aloo Pitika"
+    ]
+  },
+  "Assam-Non-Veg": {
+    "breakfast": [
+      "Egg Curry",
+      "Rice"
+    ],
+    "lunch": [
+      "Fish Tenga",
+      "Rice",
+      "Dal"
+    ],
+    "evening": [
+      "Chicken Pakora",
+      "Tea"
+    ],
+    "dinner": [
+      "Duck Curry",
+      "Rice"
+    ]
+  },
+  "Uttar Pradesh-Veg": {
+    "breakfast": [
+      "Kachori with Aloo Sabzi",
+      "Tea"
+    ],
+    "lunch": [
+      "Arhar Dal",
+      "Rice",
+      "Roti",
+      "Mixed Veg"
+    ],
+    "evening": [
+      "Samosa",
+      "Chutney"
+    ],
+    "dinner": [
+      "Palak Paneer",
+      "Chapati"
+    ]
+  },
+  "Uttar Pradesh-Non-Veg": {
+    "breakfast": [
+      "Egg Paratha",
+      "Curd"
+    ],
+    "lunch": [
+      "Chicken Curry",
+      "Rice"
+    ],
+    "evening": [
+      "Seekh Kebab",
+      "Mint Chutney"
+    ],
+    "dinner": [
+      "Mutton Qorma",
+      "Naan"
+    ]
+  },
+  "Odisha-Veg": {
+    "breakfast": [
+      "Chuda Kadali",
+      "Milk"
+    ],
+    "lunch": [
+      "Dalma",
+      "Rice",
+      "Baigana Bharta"
+    ],
+    "evening": [
+      "Bara",
+      "Chutney"
+    ],
+    "dinner": [
+      "Roti",
+      "Pumpkin Curry"
+    ]
+  },
+  "Odisha-Non-Veg": {
+    "breakfast": [
+      "Egg Bhurji",
+      "Roti"
+    ],
+    "lunch": [
+      "Macha Tarkari",
+      "Rice"
+    ],
+    "evening": [
+      "Fish Chop",
+      "Tea"
+    ],
+    "dinner": [
+      "Chicken Curry",
+      "Pakhala"
+    ]
+  },
+  "Goa-Veg": {
+    "breakfast": [
+      "Pao with Chana Masala",
+      "Tea"
+    ],
+    "lunch": [
+      "Xacuti Veg Curry",
+      "Rice",
+      "Salad"
+    ],
+    "evening": [
+      "Batata Vada",
+      "Kokum Juice"
+    ],
+    "dinner": [
+      "Vegetable Stew",
+      "Goan Bread"
+    ]
+  },
+  "Goa-Non-Veg": {
+    "breakfast": [
+      "Chorizo Pao",
+      "Black Tea"
+    ],
+    "lunch": [
+      "Prawn Curry Rice",
+      "Solkadhi"
+    ],
+    "evening": [
+      "Fish Cutlet",
+      "Feni (mocktail)"
+    ],
+    "dinner": [
+      "Chicken Cafreal",
+      "Goan Pulao"
+    ]
+  },
+  "Bihar-Veg": {
+    "breakfast": [
+      "Sattu Paratha",
+      "Curd"
+    ],
+    "lunch": [
+      "Rice",
+      "Chana Dal",
+      "Aloo Bharta"
+    ],
+    "evening": [
+      "Litti",
+      "Chokha"
+    ],
+    "dinner": [
+      "Roti",
+      "Lauki Sabzi"
+    ]
+  },
+  "Bihar-Non-Veg": {
+    "breakfast": [
+      "Egg Curry",
+      "Paratha"
+    ],
+    "lunch": [
+      "Bihari Chicken Curry",
+      "Rice"
+    ],
+    "evening": [
+      "Mutton Kabab",
+      "Tea"
+    ],
+    "dinner": [
+      "Fish Curry",
+      "Roti"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+
+{
+  "Lazy-5 minutes": {
+    "title": "Mini Wake Up",
+    "duration": "5 minutes",
+    "exercises": [
+      { "name": "Neck rolls (1×10)" },
+      { "name": "Arm Circles (1 x 10)"},
+      { "name": "Seated Marching (1 x 20)"},
+      { "name": "Standing Side Stretch (1 x 10 sec/side)"}
+    ]
+  },
+  "Lazy-10 minutes": {
+    "title": "Gentle Warm-up",
+    "duration": "10 minutes",
+    "exercises": [
+      { "name": "Cat Cow Stretch (2 x 10 reps)"},
+      { "name": "Leg Swings (2 x 10)" },
+      { "name": "Standing March (2 x 20 reps)" }
+    ]
+  },
+  "Lazy-15 minutes": {
+    "title": "Lazy Burn",
+    "duration": "15 minutes",
+    "exercises": [
+      { "name": "Shoulder Rolls (2 x 10)"},
+      { "name": "Knee Taps (3 x 15)"},
+      { "name": "Step Touch (3 x 20)"}
+    ]
+  },
+  "Lazy-20 minutes": {
+    "title": "Lazy Flow",
+    "duration": "20 minutes",
+    "exercises": [
+      { "name": "Dynamic Stretching (2 x 10)"},
+      { "name": "Squats to Chair (2 x 10)"},
+      { "name": "Wall Angels (2 x 10)"}
+    ]
+  },
+  "Lazy-30 minutes": {
+    "title": "Gentle Boost",
+    "duration": "30 minutes",
+    "exercises": [
+      { "name": "Full Body Mobility Flow (10 mins)"},
+      { "name": "Light Cardio Steps (10 mins)"},
+      { "name": "Floor Yoga (10 mins)"}
+    ]
+  },
+  "Energetic-5 minutes": {
+    "title": "Energy Flash",
+    "duration": "5 minutes",
+    "exercises": [
+      { "name": "Jumping Jacks (2 x 20)" },
+      { "name": "High Knees (2 x 15)"},
+      { "name": "Push-ups (2 x 10)"}
+    ]
+  },
+  "Energetic-10 minutes": {
+    "title": "Quick Power",
+    "duration": "10 minutes",
+    "exercises": [
+      { "name": "Burpees (3 x 10)"},
+      { "name": "Squat Jumps (3 x 12)"},
+      { "name": "Push-ups (3 x 10)"}
+    ]
+  },
+  "Energetic-15 minutes": {
+    "title": "Energy Circuit",
+    "duration": "15 minutes",
+    "exercises": [
+      { "name": "Jump Rope (3 x 30 sec)"},
+      { "name": "Lunges (3 x 10/leg)"},
+      { "name": "Push-ups (3 x 12)"}
+    ]
+  },
+  "Energetic-20 minutes": {
+    "title": "Full Blast",
+    "duration": "20 minutes",
+    "exercises": [
+      { "name": "Jumping Jacks (2 min)"},
+      { "name": "Squats (4 x 12)"},
+      { "name": "Push-ups (3 x 15)"},
+      { "name": "Bicycle Crunch (3 x 20)"}
+    ]
+  },
+  "Energetic-30 minutes": {
+    "title": "Power Session",
+    "duration": "30 minutes",
+    "exercises": [
+      { "name": "Tabata Cardio (15 min)"},
+      { "name": "Strength Circuit (10 min)"},
+      { "name": "Core Blast Finisher (5 min)"}
+    ]
+  },
+  "Stressed-5 minutes": {
+    "title": "Stress Relief Mini",
+    "duration": "5 minutes",
+    "exercises": [
+      { "name": "Deep Breathing (2 min)"},
+      { "name": "Shoulder Rolls (2 x 10)"},
+      { "name": "Neck Stretch (2 x 10 sec/side)"}
+    ]
+  },
+  "Stressed-10 minutes": {
+    "title": "Calm Break",
+    "duration": "10 minutes",
+    "exercises": [
+      { "name": "Deep Breathing (2 min)"},
+      { "name": "Child’s Pose (2 min)"},
+      { "name": "Cat Cow Stretch (2 x 10)"}
+    ]
+  },
+  "Stressed-15 minutes": {
+    "title": "Relax & Recover",
+    "duration": "15 minutes",
+    "exercises": [
+      { "name": "Breathing (2 min)"},
+      { "name": "Seated Forward Fold (2 min)"},
+      { "name": "Reclining Twist (2 min)"},
+      { "name": "Leg Raises (2 x 10)"}
+    ]
+  },
+  "Stressed-20 minutes": {
+    "title": "Zen Flow",
+    "duration": "20 minutes",
+    "exercises": [
+      { "name": "Sun Salutation Flow (10 min)"},
+      { "name": "Pigeon Pose (2 min)"},
+      { "name": "Breathwork"}
+    ]
+  },
+  "Stressed-30 minutes": {
+    "title": "Complete De-stress",
+    "duration": "30 minutes",
+    "exercises": [
+      { "name": "Full Body Stretch (15 min)"},
+      { "name": "Meditation (5 min)"},
+      { "name": "Restorative Yoga (10 min)"}
+    ]
+  },
+  "Angry-5 minutes": {
+    "title": "Cool Off Now",
+    "duration": "5 minutes",
+    "exercises": [
+      { "name": "Shadow Boxing (2 x 30 sec)"},
+      { "name": "Squat Punches (2 x 20)"},
+      { "name": "Jumping Jacks (2 x 20)"}
+    ]
+  },
+  "Angry-10 minutes": {
+    "title": "Anger Release",
+    "duration": "10 minutes",
+    "exercises": [
+      { "name": "Kickboxing Combo (3 x 30 sec)"},
+      { "name": "Burpees (3 x 10)"},
+      { "name": "Push-ups (3 x 10)"}
+    ]
+  },
+  "Angry-15 minutes": {
+    "title": "Cooldown Circuit",
+    "duration": "15 minutes",
+    "exercises": [
+      { "name": "Shadow Boxing (5 min)"},
+      { "name": "Bodyweight Circuit (3 rounds: Lunges, Push-ups, Mountain Climbers)"},
+      { "name": "Breath Focus Cooldown"}
+    ]
+  },
+  "Angry-20 minutes": {
+    "title": "Anger Detox",
+    "duration": "20 minutes",
+    "exercises": [
+      { "name": "HIIT Circuit (4 Rounds)"},
+      { "name": "Jab + Cross Drill (3 x 1 min)"},
+      { "name": "Box Jump (if available) or Squat Pulse"}
+    ]
+  },
+  "Angry-30 minutes": {
+    "title": "Complete Release",
+    "duration": "30 minutes",
+    "exercises": [
+      { "name": "Kickboxing (15 mins)"},
+      { "name": "Strength Burnout Circuit (10 mins)"},
+      { "name": "Cool-down Yoga (5 mins)"}
+    ]
+  },
+  "Happy-5 minutes": {
+    "title": "Smile Stretch",
+    "duration": "5 minutes",
+    "exercises": [
+      { "name": "Step Touch (2 x 20)"},
+      { "name": "Arm Circles (2 x 10)"},
+      { "name": "March in Place (2 x 20)"}
+    ]
+  },
+  "Happy-10 minutes": {
+    "title": "Joy Boost",
+    "duration": "10 minutes",
+    "exercises": [
+      { "name": "Dance March (3 x 30 sec)"},
+      { "name": "Squats (2 x 12)"},
+      { "name": "Jazz Hands Stretch (2 x 10)"}
+    ]
+  },
+  "Happy-15 minutes": {
+    "title": "Happy Energy",
+    "duration": "15 minutes",
+    "exercises": [
+      { "name": "Dance Steps (5 min)"},
+      { "name": "Strength Moves (2 rounds): Push-ups, Lunges, Crunches"},
+      { "name": "Relax Stretch (2 min)"}
+    ]
+  },
+  "Happy-20 minutes": {
+    "title": "Joy Circuit",
+    "duration": "20 minutes",
+    "exercises": [
+      { "name": "Dance Warmup (5 min)"},
+      { "name": "Basic Zumba Routine (10 min)"},
+      { "name": "Cooldown Stretch (5 min)"}
+    ]
+  },
+  "Happy-30 minutes": {
+    "title": "Happy Body Express",
+    "duration": "30 minutes",
+    "exercises": [
+      { "name": "25 min Dance Session (mix of Zumba, Bollywood, Freestyle)"},
+      { "name": "5 min Full Body Stretch"}
+    ]
+  }
+}

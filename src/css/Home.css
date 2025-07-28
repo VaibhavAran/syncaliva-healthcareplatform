@@ -1,0 +1,198 @@
+/* home page */
+/* Home Container */
+.home-container {
+  padding: 2rem;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.hero-title .highlight {
+  background: linear-gradient(90deg, #0dcf9d, #5a54f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Progress Section */
+.progress-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  flex-wrap: wrap;
+}
+
+.progress-box {
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+  margin: 1rem;
+}
+
+.progress-box .icon {
+  font-size: 2rem;
+  color: #00b894;
+  margin-bottom: 0.5rem;
+}
+
+.progress-box h2 {
+  font-size: 2rem;
+  color: #2980b9;
+}
+
+/* Section Cards Grid */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.section-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+}
+
+.section-card h2 {
+  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.section-card .tag {
+  font-size: 0.9rem;
+  color: #555;
+  background: #eee;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+.section-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.section-card .tags span {
+  background-color: #f1f1f1;
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.section-card .explore-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #2980b9;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.section-card .explore-button:hover {
+  background: #2471a3;
+}
+
+/* Section Color Variants */
+.blue { border-top: 5px solid #3498db; }
+.purple { border-top: 5px solid #9b59b6; }
+.orange1 { border-top: 5px solid #e67e22; }
+.green1 { border-top: 5px solid #27ae60; }
+.pink { border-top: 5px solid #e84393; }
+
+/* Health Impact Section */
+.impact-section {
+  background: #f9f9f9;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.impact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.impact-subtext {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.impact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.impact-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+}
+
+.impact-icon {
+  font-size: 2.5rem;
+  color: #00b894;
+  margin-bottom: 1rem;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .progress-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .actions-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

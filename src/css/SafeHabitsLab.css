@@ -1,0 +1,329 @@
+/* 🌿 Main Container - Wider Layout */
+.habits-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* ✅ Hero Header */
+.safehabits-hero {
+  background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+  padding: 3rem 2rem;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+
+.hero-text h1 {
+  font-size: 2.4rem;
+  color: #1b5e20;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+
+/* 🔲 Shared Section Card */
+.habit-section-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.section-top {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.section-icon-1 {
+  background: #dcedc8;
+  padding: 0.4rem;
+  border-radius: 50%;
+  color: #388e3c;
+}
+
+.section-top h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+
+/* 💡 Tip Box */
+.tip-box {
+  background: #f1f8e9;
+  padding: 1.1rem;
+  border-radius: 14px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1.2rem;
+}
+
+
+/* CTA Button */
+.habit-action {
+  background: linear-gradient(to right, #43a047, #66bb6a);
+  color: white;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 15px rgba(67, 160, 71, 0.2);
+}
+
+.habit-action:hover:not(.done) {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(67, 160, 71, 0.3);
+}
+
+.habit-action.done {
+  background: #9e9e9e;
+  box-shadow: none;
+  cursor: default;
+}
+
+
+/* 👁️ Eye Health Section: Proper 2-column */
+.eye-section-wrapper {
+  padding: 2rem 0;
+  background-color: #f1fafc;
+}
+
+.eye-section-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+
+.eye-image-side {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.eye-image-strict {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.eye-caption-strict {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.eye-info-side {
+  flex: 1 1 50%;
+}
+
+.eye-info-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.eye-info-header h2 {
+  font-size: 1.5rem;
+  color: #2e7d32;
+  margin: 0;
+}
+
+.eye-list-strict {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eye-list-strict li {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.9rem;
+  line-height: 1.6;
+}
+
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .section-top h2,
+  .eye-info-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .eye-section-container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .eye-list-strict li {
+    font-size: 1rem;
+  }
+
+  .eye-image-side,
+  .eye-info-side {
+    flex: 1 1 100%;
+  }
+}
+
+.danger-zone-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  background: #fff3e0;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+
+.danger-zone-image-box {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.danger-zone-image {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.danger-zone-label {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 0.4rem;
+}
+
+.danger-zone-info {
+  flex: 1 1 50%;
+}
+
+.danger-zone-title {
+  font-size: 1.6rem;
+  color: #d84315;
+  margin-bottom: 1rem;
+}
+
+.danger-zone-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .danger-zone-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .danger-zone-info {
+    text-align: left;
+  }
+}
+
+/* 🌿 Immunity Section Layout */
+.immunity-section-wrapper {
+  padding: 2rem 0;
+  background: #fff8e1;
+}
+
+.immunity-section-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+
+.immunity-img-box {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.immunity-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.immunity-img-caption {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.immunity-info-box {
+  flex: 1 1 50%;
+}
+
+.immunity-header h2 {
+  font-size: 1.6rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.immunity-tips-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.immunity-tips-list li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .immunity-section-container {
+    flex-direction: column;
+  }
+  .immunity-header h2 {
+    font-size: 1.3rem;
+  }
+  .immunity-tips-list li {
+    font-size: 1rem;
+  }
+}

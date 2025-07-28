@@ -1,0 +1,531 @@
+/* Full container with gradient background */
+.mind-mirror-container {
+  padding: 40px 10vw; /* 5vw gives side padding on large screens */
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #f6f7ff, #f8f9ff);
+  min-height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Title */
+.main-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Subtitle */
+.subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+/* Section Card */
+.section-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.section-card:hover {
+  transform: scale(1.02);
+}
+
+/* Icon in each section */
+.section-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Section Titles */
+.section-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.section-card p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.action-button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #6c63ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.action-button:hover {
+  background-color: #5848e5;
+}
+
+.action-button.green {
+  background-color: #34c759;
+}
+
+.action-button.green:hover {
+  background-color: #28a745;
+}
+
+/* Yoga Pose Grid */
+.yoga-poses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 24px;
+}
+
+/* Yoga Pose Card - now larger */
+.pose-card {
+  flex: 0 0 calc(30% - 24px);
+  background: #f1f3ff;
+  padding: 20px;
+  border-radius: 18px;
+  font-size: 1.05rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s;
+}
+
+.pose-card:hover {
+  transform: scale(1.02);
+}
+
+.pose-card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* Floating chatbot icon */
+.chatbot-icon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #6c63ff;
+  color: white;
+  font-size: 1.8rem;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  z-index: 999;
+  transition: background 0.3s;
+}
+
+.chatbot-icon:hover {
+  background: #5848e5;
+}
+
+.diary-form {
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.diary-form input,
+.diary-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.diary-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.view-diary-box input {
+  padding: 0.6rem;
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+  width: 70%;
+}
+
+.view-diary-box button {
+  padding: 0.6rem 1rem;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.diary-box {
+  background: #f3f0ff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.diary-box input,
+.diary-box textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.diary-box button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #7e57c2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.old-diaries {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.diary-entry {
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.view-old-diary {
+  padding-top: 40px;
+}
+
+.diary-entry button {
+  margin-top: 8px;
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.diary-entry button:hover {
+  background-color: #d32f2f;
+}
+
+.popup-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #673ab7;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 1000;
+  font-weight: 500;
+  font-size: 14px;
+  animation: fadeInOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, -10px); }
+  10% { opacity: 1; transform: translate(-50%, 0); }
+  90% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -10px); }
+}
+
+.fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  inset: 0;
+  background: black;
+  opacity: 0.6;
+  z-index: 9998;
+}
+
+.breathing-wrapper {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+
+.breathing-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #4facfe, #00f2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+/* Rotating glowing border */
+.breathing-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: conic-gradient(#4facfe, #00f2fe, #4facfe);
+  animation: rotateBorder 4s linear infinite;
+  z-index: 1;
+  filter: blur(4px);
+}
+
+@keyframes rotateBorder {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.timer-display {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  padding-top: 15px;
+}
+
+.calm-button,
+.exit-btn {
+  background-color: #4facfe;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.3rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.yoga-session-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.yoga-session-content {
+  text-align: center;
+  position: relative;
+}
+
+.yoga-gif {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.timer {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #22c55e;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.controls button:nth-child(2) {
+  background: #facc15;
+}
+.controls button:nth-child(3) {
+  background: #ef4444;
+}
+.controls button:nth-child(4) {
+  background: #3b82f6;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.completion-message {
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.completion-message h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.completion-message p {
+  font-size: 20px;
+  color: #a3e635;
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 400px;         /* increased from 300px */
+  height: 550px;        /* increased from 400px */
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.chatbot-header {
+  background: #764ba2;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+}
+
+.chatbot-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+.chat-message.user {
+  background: #d1e7dd;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.chat-message.bot {
+  background: #f8d7da;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.chatbot-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 0 0 0 12px;
+}
+
+.chatbot-input button {
+  padding: 8px 12px;
+  border: none;
+  background: #764ba2;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 0 12px 0;
+}
+
+.yoga-media {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 16px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #000;
+}
+
+.yoga-media {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.tree-pose-video {
+  max-width: 550px;
+  max-height: 450px; /* ⬅️ this limits the height */
+  border: 3px solid #4caf50;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(76, 175, 80, 0.3);
+  background-color: #f4fff0;
+  object-fit: cover;      /* makes sure video fits nicely */
+  margin: 0 auto;
+  display: block;
+}
+

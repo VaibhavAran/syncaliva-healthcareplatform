@@ -234,4 +234,34 @@
   background-color: #0e8b6b;
 }
 
+.signup-link {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 0.95rem;
+}
 
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.signin-link {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.signin-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
+}

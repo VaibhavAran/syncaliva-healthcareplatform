@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import UserContext from '../UserContext';
 
 const SignIn = () => {
@@ -53,6 +53,9 @@ const SignIn = () => {
         />
         <button type="submit">Sign In</button>
       </form>
+      <p className="signup-link">
+        Don't have an account? <Link to="/signup">Sign up</Link>
+      </p>
     </div>
   );
 };

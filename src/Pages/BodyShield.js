@@ -227,7 +227,7 @@ const BodyShield = () => {
           <div className="posture-section">
             <div className="posture-box standing">
               <img
-                src="/assets/standing-position.png"
+                src="/assets/Standing-position.png"
                 alt="Standing Posture"
                 className="posture-image"
               />

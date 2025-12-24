@@ -1,0 +1,26 @@
+[
+  {
+    "id": "deep-breathing",
+    "title": "Deep Breathing",
+    "duration": 1,
+    "focus": "Calm & Center",
+    "description": "Slow, deep breaths to relax your nervous system.",
+    "audio": "/assets/audio/deep-breathing.mp3"
+  },
+  {
+    "id": "body-scan",
+    "title": "Body Scan",
+    "duration": 2,
+    "focus": "Awareness",
+    "description": "Gently scan attention from head to toe and release tension.",
+    "audio": "/assets/audio/body-scan.mp3"
+  },
+  {
+    "id": "gratitude",
+    "title": "Gratitude Pause",
+    "duration": 2,
+    "focus": "Positive Mood",
+    "description": "Reflect on 3 things you’re grateful for today.",
+    "audio": "/assets/audio/gratitude.mp3"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "risk_zones": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "danger": "High",
+      "image": "/assets/smartphone.png",
+      "risk": "Carries thousands of bacteria, can cause skin & eye infections.",
+      "tip": "Clean daily with alcohol wipes.",
+      "fact": "Smartphones are 10x dirtier than toilet seats!"
+    },
+    {
+      "id": 2,
+      "name": "Keyboard",
+      "danger": "Medium",
+      "image": "/assets/keyboard.png",
+      "risk": "Dust and germs can cause allergies & infections.",
+      "tip": "Disinfect weekly with wipes.",
+      "fact": "Keyboards can carry 400x more bacteria than a toilet seat."
+    },
+    {
+      "id": 3,
+      "name": "Door Knobs",
+      "danger": "High",
+      "image": "/assets/doorknobs.png",
+      "risk": "Frequently touched by multiple people, spreading germs like cold and flu viruses.",
+      "tip": "Wipe down with a disinfectant spray or wipe daily, especially in high-traffic areas.",
+      "fact": "A single doorknob can be a reservoir for germs from dozens of different people in a single day."
+    },
+    {
+      "id": 4,
+      "name": "Light Switches",
+      "danger": "High",
+      "image": "/assets/light-switch.png",
+      "risk": "Touched daily by many hands, accumulating bacteria and viruses that can easily transfer.",
+      "tip": "Clean weekly with a disinfectant wipe. Be careful not to let liquid seep inside.",
+      "fact": "Light switches in public restrooms can have more bacteria than a trash can."
+    }
+  ],
+  "seasonal_tips": {
+    "summer": {
+      "title": "☀️ Summer Hygiene",
+      "tips": [
+        "Stay hydrated and clean your water bottles daily.",
+        "Avoid leaving food uncovered – bacteria grows faster in heat.",
+        "Shower regularly to prevent sweat & fungal infections."
+      ]
+    },
+    "monsoon": {
+      "title": "🌧️ Monsoon Hygiene",
+      "tips": [
+        "Dry wet clothes properly to avoid fungal growth.",
+        "Clean footwear to prevent foot infections.",
+        "Wash hands frequently to avoid flu & stomach bugs."
+      ]
+    },
+    "winter": {
+      "title": "❄️ Winter Hygiene",
+      "tips": [
+        "Wash blankets and sweaters before use.",
+        "Keep skin moisturized to avoid dryness & cracks.",
+        "Disinfect heaters/humidifiers to prevent respiratory issues."
+      ]
+    }
+  },
+  "hygiene_tips": {
+    "environment": [
+      "Clean your keyboard weekly with disinfectant.",
+      "Disinfect doorknobs and switches regularly.",
+      "Keep shoes outside the living room to reduce germs.",
+      "Use clean towels for the kitchen and bathroom separately.",
+      "Ventilate rooms daily by opening windows.",
+      "Change bed linens weekly to remove sweat, skin cells, and dust mites.",
+      "Clean and disinfect your toilet bowl at least once a week.",
+      "Empty trash cans regularly to prevent odors and pest infestations.",
+      "Wipe down kitchen counters before and after preparing food.",
+      "Mop floors weekly with a disinfectant solution.",
+      "Dust surfaces regularly to reduce allergens.",
+      "Clean your refrigerator interior monthly and discard old food.",
+      "Sanitize your sponges and kitchen cloths daily.",
+      "Wash your shower curtain or clean the shower door to prevent mold and mildew.",
+      "Regularly clean your remote controls.",
+      "Don't let laundry pile up; wash clothes regularly.",
+      "Keep your workspace tidy and clutter-free.",
+      "Use an air purifier to improve indoor air quality.",
+      "Clean behind and under large furniture and appliances periodically.",
+      "Check for and fix any leaks to prevent mold growth."
+    ],
+    "physical": [
+      "Wash hands before meals.",
+      "Brush teeth twice daily.",
+      "Trim nails regularly to avoid bacteria buildup.",
+      "Shower after sweating heavily.",
+      "Wash your hands with soap and water for at least 20 seconds.",
+      "Floss daily to remove plaque between teeth.",
+      "Use a clean towel after bathing and don't share it.",
+      "Cover your mouth and nose with your elbow when you cough or sneeze.",
+      "Change your toothbrush every 3-4 months.",
+      "Clean your ears carefully and avoid using sharp objects.",
+      "Wear clean clothes, socks, and underwear every day.",
+      "Wash your face twice a day to remove dirt and oil.",
+      "Stay home when you are sick to prevent spreading germs.",
+      "Get regular check-ups with your doctor and dentist.",
+      "Keep your hair clean by washing it regularly.",
+      "Use deodorant or antiperspirant daily.",
+      "After using the toilet, always wash your hands thoroughly.",
+      "Avoid touching your eyes, nose, and mouth with unwashed hands.",
+      "Wear clean footwear and allow shoes to air out.",
+      "Bathe or shower daily."
+    ],
+    "mental": [
+      "Practice meditation daily for stress relief.",
+      "Maintain a clean workspace to improve focus.",
+      "Take screen breaks to avoid burnout.",
+      "Ensure proper sleep hygiene with 7-8 hours rest.",
+      "Declutter your living space to declutter your mind.",
+      "Journal your thoughts to process emotions.",
+      "Schedule 'worry time' to contain anxiety.",
+      "Spend time in nature to reduce stress.",
+      "Set boundaries with work and social commitments.",
+      "Practice gratitude by noting down things you're thankful for.",
+      "Unfollow social media accounts that make you feel bad.",
+      "Engage in a hobby that you enjoy.",
+      "Listen to calming music or a podcast.",
+      "Organize your schedule to reduce feeling overwhelmed.",
+      "Practice deep breathing exercises when stressed.",
+      "Limit news consumption if it causes anxiety.",
+      "Connect with loved ones regularly for emotional support.",
+      "Learn to say 'no' to avoid overcommitting.",
+      "Create a relaxing bedtime routine.",
+      "Celebrate small achievements to boost your mood."
+    ],
+    "food": [
+      "Wash fruits & vegetables before eating.",
+      "Store raw and cooked food separately.",
+      "Check expiry dates regularly.",
+      "Always reheat leftovers properly.",
+      "Use separate cutting boards for raw meat and vegetables.",
+      "Cook food to the proper internal temperature.",
+      "Refrigerate perishable foods promptly.",
+      "Keep your refrigerator temperature at or below 4°C (40°F).",
+      "Clean your can opener after each use.",
+      "Don't thaw food on the kitchen counter.",
+      "Wash your hands before, during, and after handling food.",
+      "Keep pests away from food and kitchen areas.",
+      "Don't use food from cans that are dented, rusted, or swollen.",
+      "When in doubt about food safety, throw it out.",
+      "Cover food in the refrigerator to prevent cross-contamination.",
+      "Avoid tasting food to check if it's spoiled.",
+      "Keep hot foods hot and cold foods cold.",
+      "Clean up spills in the kitchen immediately.",
+      "Don't use the same plate for raw and cooked meat.",
+      "Use safe, clean water for cooking and cleaning."
+    ],
+    "digital": [
+      "Avoid sharing earphones to prevent infections.",
+      "Disinfect headphones weekly.",
+      "Don’t use devices while eating.",
+      "Limit screen time before sleep.",
+      "Clean your phone screen and case daily.",
+      "Use a microfiber cloth to clean screens to avoid scratches.",
+      "Adjust your monitor height to be at eye level to prevent neck strain.",
+      "Follow the 20-20-20 rule for eye strain.",
+      "Take regular breaks to stretch and walk around.",
+      "Use a blue light filter on screens in the evening.",
+      "Organize your digital files and delete unnecessary ones.",
+      "Back up your important data regularly.",
+      "Use strong, unique passwords for different accounts.",
+      "Be mindful of your posture while using laptops or phones.",
+      "Unsubscribe from emails and newsletters you don't read.",
+      "Mute notifications to reduce distractions and stress.",
+      "Don't take your phone to the toilet.",
+      "Clean your mouse and mousepad regularly.",
+      "Ensure your workspace has adequate lighting to reduce eye strain.",
+      "Log out of public computers after use."
+    ]
+  }
+}

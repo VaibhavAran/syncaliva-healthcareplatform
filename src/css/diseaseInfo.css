@@ -1,0 +1,107 @@
+.disease-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.disease-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border: none;
+  background: #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.tab.active {
+  background: #4caf50;
+  color: white;
+}
+
+.tab:hover {
+  background: #c8e6c9;
+}
+
+.language-select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.disease-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+.sub-title {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.tip-section {
+  margin-bottom: 15px;
+}
+
+.tip-section ul {
+  margin-left: 20px;
+}
+
+.card {
+  background: #fafafa;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #388e3c;
+}
+
+.symptoms {
+  color: #555;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.doctor-warning {
+  color: #c62828;
+  font-size: 14px;
+  margin-top: 5px;
+}

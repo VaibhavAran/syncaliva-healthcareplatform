@@ -1,0 +1,238 @@
+/* Import a nice font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* --- CSS Variables for Easy Theming --- */
+:root {
+  --primary-color: #1abc9c; /* A fresh teal */
+  --secondary-color: #2c3e50;
+  --background-color: #f4f7f6;
+  --card-background: #ffffff;
+  --text-color: #34495e;
+  --text-light: #7f8c8d;
+  --border-radius: 12px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.dp-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+
+.dp-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dp-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+}
+
+.dp-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+/* --- Highlight Section (Daily One Change) --- */
+.dp-highlight {
+  display: flex;
+  background: linear-gradient(135deg, #ffffff 0%, #eef8f6 100%);
+  border-radius: var(--border-radius);
+  margin-bottom: 40px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dp-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.dp-highlight-img {
+  flex-shrink: 0;
+  width: 280px;
+  object-fit: cover;
+}
+
+.dp-highlight-content {
+  padding: 30px;
+}
+
+.dp-highlight h2 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.dp-highlight h3 {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 5px 0 10px;
+}
+
+.dp-cta {
+  padding: 12px 24px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.dp-cta:hover:not(:disabled) {
+  background: #16a085;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(26, 188, 156, 0.4);
+}
+
+.dp-cta.done {
+  background: #bdc3c7;
+  color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+.dp-date {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 10px;
+}
+
+/* --- Grid for Eye & Immunity --- */
+.dp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.dp-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--secondary-color);
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* --- Cards (Eye & Immunity) --- */
+.dp-card {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dp-card:hover {
+  transform: translateY(-5px);
+}
+
+.dp-card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.dp-card-content {
+  padding: 20px;
+}
+
+.dp-card-content h3 {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+.dp-card-content h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin: 5px 0 10px;
+}
+.dp-card-content p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* --- Challenges --- */
+.dp-challenges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.dp-challenge {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dp-challenge:hover {
+  transform: translateY(-5px);
+}
+
+.dp-challenge-header {
+  padding: 12px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.dp-challenge-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.dp-challenge-content {
+  padding: 20px;
+}
+
+.dp-ch-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+}
+
+.dp-duration {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-top: 10px;
+}
+
+/* --- Utility & Responsive --- */
+.error {
+  text-align: center;
+  color: #e74c3c;
+  font-weight: bold;
+  padding: 20px;
+  background: #fadbd8;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .dp-highlight {
+    flex-direction: column;
+  }
+  .dp-highlight-img {
+    width: 100%;
+    max-height: 200px;
+  }
+}

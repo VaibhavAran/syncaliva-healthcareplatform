@@ -1,0 +1,554 @@
+{
+  "child": {
+    "None": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Diabetes": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Asthma": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Obesity": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Arthritis": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Anemia": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Migraine": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Kidney Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Liver Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Physically Disabled": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ]
+  },
+  "teen": {
+    "None": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Diabetes": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Asthma": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Obesity": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Arthritis": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Anemia": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Migraine": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Kidney Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Liver Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Physically Disabled": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ]
+  },
+  "adult": {
+    "None": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Diabetes": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Asthma": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Obesity": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Arthritis": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Anemia": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Migraine": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Kidney Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Liver Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Physically Disabled": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ]
+  },
+  "senior": {
+    "None": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Diabetes": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Asthma": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Obesity": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Arthritis": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Anemia": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Migraine": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Kidney Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Liver Disease": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ],
+    "Physically Disabled": [
+      { "name": "Child's Pose", "duration": 60 },
+      { "name": "Cat-Cow Pose", "duration": 60 },
+      { "name": "Tree Pose", "duration": 60 },
+      { "name": "Bridge Pose", "duration": 60 },
+      { "name": "Corpse Pose", "duration": 60 },
+      { "name": "Seated Forward Bend", "duration": 60 }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+/* -------- Base Layout -------- */
+.nutrition-wrapper {
+  font-family: "Inter", sans-serif;
+  background: #f8fafc;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #1e293b;
+}
+
+.nutrition-header {
+  background: linear-gradient(135deg, #4cafef, #3b82f6);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+}
+
+.nutrition-header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* -------- Controls -------- */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.controls button {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  background: #e2e8f0;
+  color: #1e293b;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.controls button:hover {
+  background: #cbd5e1;
+}
+
+.controls button:disabled {
+  background: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.download-btn {
+  background: #16a34a !important;
+  color: white !important;
+}
+
+.download-btn:hover {
+  background: #15803d !important;
+}
+
+/* -------- Error -------- */
+.error-banner {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+/* -------- Plan Card -------- */
+.plan-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-2px);
+}
+
+.plan-header {
+  margin-bottom: 1.5rem;
+}
+
+.plan-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.plan-sub {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+/* -------- Meals -------- */
+.plan-body {
+  display: grid;
+  gap: 1.8rem;
+}
+
+.meal-section h3 {
+  font-size: 1.2rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.meal-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.meal-section li {
+  background: #f1f5f9;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 0.4rem;
+  transition: background 0.2s;
+}
+
+.meal-section li:hover {
+  background: #e2e8f0;
+}
+
+.nonveg-item {
+  background: #fff1f2 !important;
+  border-left: 4px solid #e11d48;
+}
+
+.nv-tag {
+  background: #e11d48;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+  margin-left: 0.5rem;
+}
+
+/* -------- Avoid Section -------- */
+.avoid-section h3 {
+  font-size: 1.2rem;
+  color: #dc2626;
+  margin-bottom: 0.5rem;
+}
+
+.avoid-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.avoid-item {
+  background: #fee2e2;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 0.4rem;
+  color: #b91c1c;
+  font-weight: 500;
+}
+
+.plan-empty {
+  text-align: center;
+  color: #64748b;
+  font-size: 1rem;
+  padding: 1rem;
+}

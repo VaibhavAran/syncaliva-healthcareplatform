@@ -1,0 +1,201 @@
+/* Import a modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- CSS Variables for a Consistent Theme --- */
+:root {
+  --color-primary: #00897b; /* Teal */
+  --color-primary-light: #e0f2f1;
+  --color-secondary: #455a64; /* Cool Gray */
+  --color-background: #f8fafc;
+  --color-card: #ffffff;
+  --color-text: #334155;
+  --color-text-light: #64748b;
+  --font-family: 'Inter', sans-serif;
+  --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.04);
+  --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.05);
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+/* --- General Page Styles --- */
+.hygiene-page {
+  padding: 40px 20px;
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.hygiene-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hygiene-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.hygiene-header p {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+/* --- Risk Zone Card --- */
+.risk-card-section {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+}
+
+.risk-card {
+  display: flex;
+  gap: 30px;
+  background: var(--color-card);
+  padding: 30px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.risk-card:hover {
+  transform: translateY(-5px);
+}
+
+.risk-img {
+  width: 100%;
+  max-width: 280px;
+  height: 280px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
+.risk-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+.risk-content p { line-height: 1.6; }
+
+.danger { font-weight: 600; padding: 5px 12px; border-radius: 99px; font-size: 0.9rem; }
+.danger.high { color: #c62828; background: #ffcdd2; }
+.danger.medium { color: #e65100; background: #ffcc80; }
+.danger.low { color: #2e7d32; background: #c8e6c9; }
+
+.fun-fact { margin-top: 15px; color: var(--color-text-light); }
+.fun-fact b { color: var(--color-secondary); }
+
+/* --- Main Content Grid (Seasonal + Library) --- */
+/* --- Main Content Grid (Seasonal + Library) --- */
+.hygiene-main-content {
+  display: grid;
+  grid-template-columns: 1fr; /* single column for flow */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* --- Seasonal Card --- */
+.season-card {
+  padding: 25px;
+  border-radius: var(--radius-lg);
+  color: #fff;
+  background: linear-gradient(145deg, #fbc02d, #f57c00);
+  box-shadow: var(--shadow-md);
+  /* removed sticky */
+  position: static;
+  top: auto;
+}
+
+
+.season-card.monsoon { background: linear-gradient(145deg, #4fc3f7, #0288d1); }
+.season-card.winter { background: linear-gradient(145deg, #90a4ae, #455a64); }
+
+.season-header h3 { font-size: 1.4rem; font-weight: 600; margin-bottom: 15px; }
+.season-tips-list { list-style: none; padding-left: 0; }
+.season-tips-list li { margin-bottom: 12px; line-height: 1.5; padding-left: 25px; position: relative; }
+.season-tips-list li::before { content: '✓'; position: absolute; left: 0; font-weight: 600; }
+
+/* --- Library --- */
+.library {
+  background: var(--color-card);
+  padding: 30px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid #e2e8f0;
+  font-size: 1rem;
+  outline-color: var(--color-primary);
+  margin-bottom: 20px;
+  background-color: #f8fafc;
+}
+
+.filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px; }
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 99px; /* Pill shape */
+  background: transparent;
+  color: var(--color-text-light);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.filter-btn:hover { background: var(--color-primary-light); color: var(--color-primary); }
+.filter-btn.active { background: var(--color-primary); color: #ffffff; border-color: var(--color-primary); }
+
+/* --- Tips Grid --- */
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.tip-card {
+  background: var(--color-background);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid transparent; /* For category color */
+}
+
+/* Category-specific border colors */
+.tip-card[data-category="environment"] { border-color: #4caf50; }
+.tip-card[data-category="physical"]    { border-color: #2196f3; }
+.tip-card[data-category="mental"]      { border-color: #9c27b0; }
+.tip-card[data-category="food"]        { border-color: #ff9800; }
+.tip-card[data-category="digital"]     { border-color: #607d8b; }
+
+.tip-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-sm); }
+.no-tips { text-align: center; color: var(--color-text-light); grid-column: 1 / -1; padding: 40px 0;}
+
+/* --- Responsive --- */
+@media (max-width: 1024px) {
+  .hygiene-main-content { grid-template-columns: 1fr; }
+  .season-card { position: static; } /* Unstick the card */
+}
+
+@media (max-width: 768px) {
+  .hygiene-header h1 { font-size: 2rem; }
+  .risk-card { flex-direction: column; text-align: center; }
+  .risk-img { max-width: 100%; height: auto; }
+}

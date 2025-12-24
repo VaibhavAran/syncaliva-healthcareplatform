@@ -1,0 +1,102 @@
+{
+  "eye": {
+    "title": "Practice the 20-20-20 Rule",
+    "image_url": "/assets/image.png",
+    "description": [
+      "To reduce digital eye strain, look away from your screen every 20 minutes.",
+      "Focus on an object at least 20 feet (about 6 meters) away.",
+      "Hold your gaze for at least 20 seconds before returning to your screen.",
+      "Adjust your screen brightness and contrast to comfortable levels to reduce eye fatigue.",
+      "Blink frequently to keep your eyes moist and prevent dryness, especially in air-conditioned environments."
+    ]
+  },
+  "immunity": {
+    "title": "Boost Your Immunity Daily",
+    "image_url": "/assets/immunity.png",
+    "description": [
+      "Eat a variety of colorful fruits and vegetables to get essential vitamins and antioxidants.",
+      "Get at least 7 hours of sleep each night to help your immune system recover and function well.",
+      "Take a brisk walk or do light exercise for 20 minutes to improve circulation and immune response.",
+      "Drink enough water throughout the day to help flush out toxins and support immune cell function.",
+      "Try adding a slice of lemon or a bit of ginger to your water for an extra antioxidant boost."
+    ]
+  },
+  "one_changes": [
+    {
+      "title": "Swap Soda for Water",
+      "description": "Replace one sugary drink with water or unsweetened tea.",
+      "image_url": "/assets/change.png"
+    },
+    {
+      "title": "10-Minute Walk After Lunch",
+      "description": "A brisk post-meal walk improves blood sugar and mood.",
+      "image_url": "/assets/change.png"
+    },
+    {
+      "title": "Add One Fruit",
+      "description": "Include one whole fruit today—keep it simple and consistent.",
+      "image_url": "/assets/change.png"
+    },
+    {
+      "title": "Stand Up Every Hour",
+      "description": "Set a timer to stand and stretch for 1 minute every hour.",
+      "image_url": "/assets/change.png"
+    },
+    {
+      "title": "Mindful Breathing Break",
+      "description": "Pause for 2 minutes and focus on slow, deep breaths.",
+      "image_url": "/assets/change.png"
+    },
+    {
+      "title": "Replace Chips with Nuts",
+      "description": "Choose a handful of unsalted nuts instead of fried snacks.",
+      "image_url": "/assets/change.png"
+    }
+  ],
+  "challenges": {
+    "physical": [
+      {
+        "title": "Plank Hold",
+        "description": "Hold a plank for 60–120 seconds. Keep core tight, avoid hip sag.",
+        "duration_mins": 2
+      },
+      {
+        "title": "5-Minute Full-Body Stretch",
+        "description": "Neck, shoulders, hamstrings, calves, hips—slow, easy movements.",
+        "duration_mins": 5
+      },
+      {
+        "title": "Wall Sit Challenge",
+        "description": "Sit against a wall with knees at 90°. Hold for 1–2 minutes.",
+        "duration_mins": 2
+      },
+      {
+        "title": "Stair Climb",
+        "description": "Walk up and down stairs for 3 minutes. Focus on steady pace.",
+        "duration_mins": 3
+      }
+    ],
+    "mental": [
+      {
+        "title": "2-Minute Box Breathing",
+        "description": "4s inhale, 4s hold, 4s exhale, 4s hold. Repeat.",
+        "duration_mins": 2
+      },
+      {
+        "title": "Gratitude Note",
+        "description": "Write 3 things you’re grateful for today.",
+        "duration_mins": 3
+      },
+      {
+        "title": "Digital Detox",
+        "description": "Put your phone away for 10 minutes and observe your surroundings.",
+        "duration_mins": 10
+      },
+      {
+        "title": "Positive Affirmations",
+        "description": "Repeat 5 positive affirmations aloud or in writing.",
+        "duration_mins": 2
+      }
+    ]
+  }
+}

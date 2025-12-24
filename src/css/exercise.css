@@ -1,0 +1,194 @@
+.exercise-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #141414;
+}
+
+.page-title {
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+/* Tabs container with Start button */
+.tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.tabs {
+  display: inline-flex;
+  background: #f1f3f5;
+  padding: 6px;
+  border-radius: 14px;
+  gap: 6px;
+}
+.tabs button {
+  border: 0;
+  background: transparent;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #4b5563;
+  transition: all .2s ease;
+}
+.tabs button.active {
+  background: #111827;
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(17,24,39,.15);
+}
+
+/* Start button in row */
+.start-btn-row {
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: 0;
+  background: linear-gradient(135deg,#111827,#4b5563);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.start-btn-row:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(17,24,39,.24);
+}
+
+/* Single-column cards */
+.exercise-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exercise-card {
+  background: #fff;
+  border: 1px solid #e7e7e9;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(22, 29, 37, .04);
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;        /* small gap between name and duration */
+  justify-content: flex-start; /* keep items close together */
+}
+
+
+.badge {
+  font-size: 12px;
+  background: #eef2ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+
+.desc {
+  margin: 8px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Session modal */
+.session-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 12, 16, .65);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+  margin-left: 50px;
+}
+
+.session-card {
+  position: relative;
+  background: #ffffff;
+  width: 95vw;
+  max-width: 900px;
+  border-radius: 22px;
+  padding: 48px 36px;
+  box-shadow: 0 20px 80px rgba(0,0,0,.25);
+}
+.close-btn {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  border: 0;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.big-timer {
+  font-size: clamp(50px, 10vw, 80px);
+  text-align: center;
+  font-weight: 800;
+  color: #111827;
+  margin: 6px auto 12px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #eef2f7;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 8px 0 14px;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #111827, #4b5563);
+  transition: width .5s linear;
+  border-radius: 999px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 6px;
+}
+.btn {
+  border: 0;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn.pause { background: #fde68a; color: #6b4f00; }
+.btn.skip  { background: #dbeafe; color: #1e40af; }
+.btn.end   { background: #fee2e2; color: #7f1d1d; }
+
+.done-title {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 6px;
+}
+.done-sub {
+  text-align: center;
+  color: #6b7280;
+  margin: 0 0 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  margin: 6px 0 6px;
+}
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin: 0 0 14px;
+}

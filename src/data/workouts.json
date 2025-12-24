@@ -1,0 +1,554 @@
+{
+  "child": {
+    "None": [
+      { "name": "Jumping Jacks", "duration": 30 },
+      { "name": "Squats", "duration": 30 },
+      { "name": "Push-ups (Knee)", "duration": 20 },
+      { "name": "Animal Walks (Bear Crawl)", "duration": 30 },
+      { "name": "Plank", "duration": 20 },
+      { "name": "Burpees (Modified)", "duration": 30 }
+    ],
+    "Diabetes": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Bodyweight Squats", "duration": 20 },
+      { "name": "Marching in Place", "duration": 30 },
+      { "name": "Arm Circles", "duration": 20 },
+      { "name": "Yoga (Cat-Cow Pose)", "duration": 40 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 30 },
+      { "name": "Bodyweight Squats", "duration": 20 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Deep Breathing", "duration": 40 }
+    ],
+    "Asthma": [
+      { "name": "Warm-up Walk", "duration": 60 },
+      { "name": "Deep Breathing", "duration": 40 },
+      { "name": "Cat-Cow Stretch", "duration": 30 },
+      { "name": "Arm Circles", "duration": 30 },
+      { "name": "Leg Swings", "duration": 30 },
+      { "name": "Cool-down Walk", "duration": 60 }
+    ],
+    "Obesity": [
+      { "name": "Marching in Place", "duration": 40 },
+      { "name": "Star Jumps", "duration": 30 },
+      { "name": "Bear Crawls", "duration": 30 },
+      { "name": "Bodyweight Squats", "duration": 30 },
+      { "name": "Light Jogging", "duration": 40 },
+      { "name": "Dancing", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Slow Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Seated Arm Circles", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 30 },
+      { "name": "Very Light Marching", "duration": 30 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Walking", "duration": 60 },
+      { "name": "Hopping on the Spot", "duration": 30 },
+      { "name": "Bodyweight Squats", "duration": 30 },
+      { "name": "Arm Circles", "duration": 20 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Animal Walks", "duration": 30 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Bodyweight Squats", "duration": 20 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Plank", "duration": 20 },
+      { "name": "Yoga (Child's Pose)", "duration": 40 }
+    ],
+    "Arthritis": [
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Slow Walking", "duration": 60 },
+      { "name": "Arm Circles", "duration": 30 },
+      { "name": "Leg Raises", "duration": 30 },
+      { "name": "Cat-Cow Stretch", "duration": 30 },
+      { "name": "Swimming (if possible)", "duration": 60 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Walking", "duration": 60 },
+      { "name": "Light Jogging", "duration": 40 },
+      { "name": "Arm Circles", "duration": 30 },
+      { "name": "Leg Swings", "duration": 30 },
+      { "name": "Standing Side Bends", "duration": 30 },
+      { "name": "Calf Raises", "duration": 30 }
+    ],
+    "Anemia": [
+      { "name": "Slow Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Seated Arm Circles", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 },
+      { "name": "Lying Leg Raises", "duration": 20 },
+      { "name": "Child's Pose Yoga", "duration": 40 }
+    ],
+    "Migraine": [
+      { "name": "Light Jogging", "duration": 40 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Yoga (Animal Poses)", "duration": 40 },
+      { "name": "Dancing", "duration": 60 },
+      { "name": "Walking", "duration": 60 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Playing Outside", "duration": 120 },
+      { "name": "Dancing", "duration": 60 },
+      { "name": "Jumping Jacks", "duration": 30 },
+      { "name": "Yoga (Animal Poses)", "duration": 40 },
+      { "name": "Deep Breathing", "duration": 30 },
+      { "name": "Walking", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Running", "duration": 60 },
+      { "name": "Jumping Rope", "duration": 40 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Swimming", "duration": 60 },
+      { "name": "Playing Sports", "duration": 120 },
+      { "name": "Dancing", "duration": 60 }
+    ],
+    "Kidney Disease": [
+      { "name": "Slow Guided Walk", "duration": 40 },
+      { "name": "Gentle Seated Stretching", "duration": 30 },
+      { "name": "Deep Breathing Exercises", "duration": 30 },
+      { "name": "Seated Leg Lifts", "duration": 20 },
+      { "name": "Seated Arm Raises", "duration": 20 },
+      { "name": "Ankle Rotations", "duration": 30 }
+    ],
+    "Liver Disease": [
+      { "name": "Slow Guided Walk", "duration": 40 },
+      { "name": "Gentle Seated Stretching", "duration": 30 },
+      { "name": "Deep Breathing Exercises", "duration": 30 },
+      { "name": "Seated Leg Lifts", "duration": 20 },
+      { "name": "Seated Arm Raises", "duration": 20 },
+      { "name": "Wrist Rotations", "duration": 30 }
+    ],
+    "Physically Disabled": [
+      { "name": "Seated Ball Toss", "duration": 60 },
+      { "name": "Stretching with Assistance", "duration": 40 },
+      { "name": "Adapted Yoga", "duration": 40 },
+      { "name": "Resistance Band Pulls", "duration": 30 },
+      { "name": "Seated Arm Circles", "duration": 30 },
+      { "name": "Wheelchair Pushing Practice", "duration": 60 }
+    ]
+  },
+  "teen": {
+    "None": [
+      { "name": "Push-ups", "duration": 30 },
+      { "name": "Sit-ups", "duration": 30 },
+      { "name": "Squats", "duration": 30 },
+      { "name": "Lunges", "duration": 30 },
+      { "name": "Plank", "duration": 30 },
+      { "name": "Jumping Jacks", "duration": 30 }
+    ],
+    "Diabetes": [
+      { "name": "Light Jog", "duration": 60 },
+      { "name": "Squats", "duration": 30 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Plank", "duration": 30 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Yoga (Sun Salutation)", "duration": 40 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Brisk Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Bodyweight Squats", "duration": 30 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Plank", "duration": 30 },
+      { "name": "Yoga (Warrior Pose)", "duration": 40 }
+    ],
+    "Asthma": [
+      { "name": "Brisk Walk / Light Jog", "duration": 60 },
+      { "name": "Yoga Sun Salutation", "duration": 40 },
+      { "name": "Light Cycling", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 30 },
+      { "name": "Controlled Breathing", "duration": 40 },
+      { "name": "Cool-down Stretching", "duration": 40 }
+    ],
+    "Obesity": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 40 },
+      { "name": "Modified Push-ups", "duration": 30 },
+      { "name": "Glute Bridges", "duration": 40 },
+      { "name": "Plank", "duration": 30 },
+      { "name": "Stationary Cycling", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Moderate Walk", "duration": 60 },
+      { "name": "Full Body Stretching", "duration": 40 },
+      { "name": "Light Bodyweight Squats", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 },
+      { "name": "Light Cycling", "duration": 60 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Brisk Walk", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 30 },
+      { "name": "Lunges", "duration": 30 },
+      { "name": "Plank", "duration": 30 },
+      { "name": "Light Jog", "duration": 60 },
+      { "name": "Jumping Jacks", "duration": 30 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Jogging", "duration": 60 },
+      { "name": "Squats", "duration": 40 },
+      { "name": "Glute Bridges", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Push-ups", "duration": 30 },
+      { "name": "Yoga Flow", "duration": 60 }
+    ],
+    "Arthritis": [
+      { "name": "Walking", "duration": 60 },
+      { "name": "Cycling (low resistance)", "duration": 60 },
+      { "name": "Gentle Yoga", "duration": 40 },
+      { "name": "Wall Sits", "duration": 30 },
+      { "name": "Glute Bridges", "duration": 30 },
+      { "name": "Dynamic Stretching", "duration": 40 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Light Jogging", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 30 },
+      { "name": "Standing Core Twists", "duration": 30 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Lunges", "duration": 30 }
+    ],
+    "Anemia": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Yoga", "duration": 40 },
+      { "name": "Bodyweight Squats (low reps)", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 }
+    ],
+    "Migraine": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Jogging", "duration": 60 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Yoga Flow", "duration": 40 },
+      { "name": "Stretching", "duration": 30 },
+      { "name": "Bodyweight Strength", "duration": 40 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Running/Jogging", "duration": 60 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Dancing", "duration": 60 },
+      { "name": "Yoga", "duration": 40 },
+      { "name": "Strength Training", "duration": 40 },
+      { "name": "Mindful Walking", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Jogging/Running", "duration": 60 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "HIIT (if fit)", "duration": 40 },
+      { "name": "Rowing", "duration": 40 },
+      { "name": "Stair Climbing", "duration": 40 }
+    ],
+    "Kidney Disease": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Deep Breathing Exercises", "duration": 30 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Yoga (Mountain Pose)", "duration": 30 }
+    ],
+    "Liver Disease": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Deep Breathing Exercises", "duration": 30 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Yoga (Mountain Pose)", "duration": 30 }
+    ],
+    "Physically Disabled": [
+      { "name": "Seated Strength (dumbbells)", "duration": 40 },
+      { "name": "Wheelchair Cardio", "duration": 60 },
+      { "name": "Resistance Bands", "duration": 40 },
+      { "name": "Adaptive Yoga", "duration": 40 },
+      { "name": "Seated Core Work", "duration": 30 },
+      { "name": "Stretching", "duration": 40 }
+    ]
+  },
+  "adult": {
+    "None": [
+      { "name": "Push-ups", "duration": 40 },
+      { "name": "Sit-ups", "duration": 40 },
+      { "name": "Squats", "duration": 40 },
+      { "name": "Lunges", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Jumping Jacks", "duration": 40 }
+    ],
+    "Diabetes": [
+      { "name": "Brisk Walk", "duration": 60 },
+      { "name": "Squats", "duration": 40 },
+      { "name": "Step-ups", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Yoga (Sun Salutation)", "duration": 40 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Brisk Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Bodyweight Squats", "duration": 40 },
+      { "name": "Step-ups", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Yoga (Triangle Pose)", "duration": 40 }
+    ],
+    "Asthma": [
+      { "name": "Brisk Walk / Light Jog", "duration": 60 },
+      { "name": "Yoga Sun Salutation", "duration": 40 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 40 },
+      { "name": "Controlled Breathing", "duration": 40 },
+      { "name": "Cool-down Stretching", "duration": 40 }
+    ],
+    "Obesity": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 40 },
+      { "name": "Push-ups (Modified)", "duration": 30 },
+      { "name": "Glute Bridges", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Stationary Cycling", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Full Body Stretching", "duration": 40 },
+      { "name": "Light Bodyweight Squats", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 },
+      { "name": "Light Cycling", "duration": 60 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Brisk Walk", "duration": 60 },
+      { "name": "Squats", "duration": 40 },
+      { "name": "Lunges", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Jogging", "duration": 60 },
+      { "name": "Dumbbell Rows", "duration": 40 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Jogging", "duration": 60 },
+      { "name": "Squats", "duration": 40 },
+      { "name": "Glute Bridges", "duration": 40 },
+      { "name": "Plank", "duration": 40 },
+      { "name": "Push-ups", "duration": 40 },
+      { "name": "Yoga Flow", "duration": 60 }
+    ],
+    "Arthritis": [
+      { "name": "Walking", "duration": 60 },
+      { "name": "Cycling (low resistance)", "duration": 60 },
+      { "name": "Gentle Yoga", "duration": 40 },
+      { "name": "Wall Sits", "duration": 30 },
+      { "name": "Glute Bridges", "duration": 40 },
+      { "name": "Dynamic Stretching", "duration": 40 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Light Jogging", "duration": 60 },
+      { "name": "Bodyweight Squats", "duration": 40 },
+      { "name": "Standing Core Twists", "duration": 40 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Lunges", "duration": 40 }
+    ],
+    "Anemia": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Yoga", "duration": 40 },
+      { "name": "Bodyweight Squats (low reps)", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 }
+    ],
+    "Migraine": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Jogging", "duration": 60 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Yoga Flow", "duration": 40 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Bodyweight Strength", "duration": 40 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Running/Jogging", "duration": 60 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "Dancing", "duration": 60 },
+      { "name": "Yoga", "duration": 40 },
+      { "name": "Strength Training", "duration": 40 },
+      { "name": "Mindful Walking", "duration": 60 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Jogging/Running", "duration": 60 },
+      { "name": "Cycling", "duration": 60 },
+      { "name": "HIIT (if fit)", "duration": 40 },
+      { "name": "Rowing", "duration": 40 },
+      { "name": "Stair Climbing", "duration": 40 }
+    ],
+    "Kidney Disease": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Deep Breathing Exercises", "duration": 40 },
+      { "name": "Bodyweight Squats (low reps)", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Yoga (Mountain Pose)", "duration": 40 }
+    ],
+    "Liver Disease": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Deep Breathing Exercises", "duration": 40 },
+      { "name": "Bodyweight Squats (low reps)", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Yoga (Mountain Pose)", "duration": 40 }
+    ],
+    "Physically Disabled": [
+      { "name": "Seated Strength (dumbbells)", "duration": 40 },
+      { "name": "Wheelchair Cardio", "duration": 60 },
+      { "name": "Resistance Bands", "duration": 40 },
+      { "name": "Adaptive Yoga/Pilates", "duration": 40 },
+      { "name": "Seated Core Work", "duration": 40 },
+      { "name": "Stretching", "duration": 40 }
+    ]
+  },
+  "senior": {
+    "None": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Chair Squats", "duration": 30 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Yoga (Chair Pose)", "duration": 30 }
+    ],
+    "Diabetes": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Chair Squats", "duration": 30 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Chair Yoga", "duration": 30 }
+    ],
+    "Hypertension (High BP)": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Chair Squats", "duration": 30 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Chair Yoga", "duration": 30 }
+    ],
+    "Asthma": [
+      { "name": "Seated Marching", "duration": 40 },
+      { "name": "Deep Diaphragmatic Breathing", "duration": 40 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Chair Yoga", "duration": 40 },
+      { "name": "Slow Walk", "duration": 60 },
+      { "name": "Arm Raises", "duration": 30 }
+    ],
+    "Obesity": [
+      { "name": "Chair Squats", "duration": 40 },
+      { "name": "Seated Marching", "duration": 40 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Light Walking", "duration": 60 },
+      { "name": "Water Aerobics (if possible)", "duration": 60 }
+    ],
+    "Heart Disease": [
+      { "name": "Slow Walk", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Seated Arm Circles", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 },
+      { "name": "Chair Marching", "duration": 30 }
+    ],
+    "Thyroid Disorder": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Chair Squats", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 30 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Step-ups (with support)", "duration": 30 },
+      { "name": "Arm Raises", "duration": 30 }
+    ],
+    "PCOS / PCOD": [
+      { "name": "Light Walk", "duration": 60 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Chair Squats", "duration": 30 },
+      { "name": "Step-ups", "duration": 30 },
+      { "name": "Wall Push-ups", "duration": 20 },
+      { "name": "Chair Yoga", "duration": 30 }
+    ],
+    "Arthritis": [
+      { "name": "Chair Yoga", "duration": 40 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Hand and Wrist Stretches", "duration": 40 },
+      { "name": "Slow Walking", "duration": 60 },
+      { "name": "Water Aerobics (if possible)", "duration": 60 }
+    ],
+    "Acidity / GERD": [
+      { "name": "Walking", "duration": 60 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Chair Marching", "duration": 40 },
+      { "name": "Arm Raises", "duration": 30 },
+      { "name": "Calf Raises", "duration": 30 },
+      { "name": "Seated Side Bends", "duration": 30 }
+    ],
+    "Anemia": [
+      { "name": "Very Light Walk", "duration": 40 },
+      { "name": "Chair Stretching", "duration": 40 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Deep Breathing", "duration": 40 },
+      { "name": "Ankle Rotations", "duration": 30 },
+      { "name": "Wrist Stretches", "duration": 30 }
+    ],
+    "Migraine": [
+      { "name": "Walking", "duration": 60 },
+      { "name": "Gentle Yoga", "duration": 40 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Stationary Bike (low resistance)", "duration": 40 },
+      { "name": "Tai Chi", "duration": 40 },
+      { "name": "Water Aerobics (if possible)", "duration": 60 }
+    ],
+    "Depression / Anxiety": [
+      { "name": "Walking in Nature", "duration": 60 },
+      { "name": "Tai Chi", "duration": 40 },
+      { "name": "Gentle Yoga", "duration": 40 },
+      { "name": "Chair Dancing", "duration": 40 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Deep Breathing", "duration": 40 }
+    ],
+    "Cholesterol Issues": [
+      { "name": "Brisk Walking", "duration": 60 },
+      { "name": "Water Aerobics", "duration": 60 },
+      { "name": "Stationary Cycling", "duration": 40 },
+      { "name": "Light Jogging (if able)", "duration": 40 },
+      { "name": "Stretching", "duration": 40 },
+      { "name": "Step-ups", "duration": 30 }
+    ],
+    "Kidney Disease": [
+      { "name": "Slow Guided Walk", "duration": 40 },
+      { "name": "Gentle Seated Stretching", "duration": 40 },
+      { "name": "Deep Breathing Exercises", "duration": 40 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Seated Arm Raises", "duration": 30 },
+      { "name": "Ankle and Wrist Rotations", "duration": 30 }
+    ],
+    "Liver Disease": [
+      { "name": "Slow Guided Walk", "duration": 40 },
+      { "name": "Gentle Seated Stretching", "duration": 40 },
+      { "name": "Deep Breathing Exercises", "duration": 40 },
+      { "name": "Seated Leg Lifts", "duration": 30 },
+      { "name": "Seated Arm Raises", "duration": 30 },
+      { "name": "Ankle and Wrist Rotations", "duration": 30 }
+    ],
+    "Physically Disabled": [
+      { "name": "Chair Yoga", "duration": 40 },
+      { "name": "Seated Marching", "duration": 40 },
+      { "name": "Light Resistance Bands", "duration": 30 },
+      { "name": "Gentle Stretching", "duration": 40 },
+      { "name": "Seated Arm/Leg Lifts", "duration": 30 },
+      { "name": "Grip Strength Exercises", "duration": 30 }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Phone Screen",
+    "image": "/assets/smartphone.png",
+    "info": "Your phone is one of the dirtiest objects you touch daily. Research shows it can carry 10x more bacteria than a toilet seat. Since we constantly touch our phones and then our faces, this becomes a direct route for harmful microbes to enter our body. Regularly disinfecting your phone screen can significantly reduce the risk of flu, cold, and even eye infections."
+  },
+  {
+    "title": "Doorknobs",
+    "image": "/assets/doorknobs.png",
+    "info": "Doorknobs are high-contact surfaces that accumulate germs from every person who touches them. Especially in public places or shared homes, viruses like the flu and COVID-19 can survive on metal for several hours. If you touch a contaminated doorknob and then rub your eyes or eat with your hands, you increase your chances of falling ill. Wiping knobs daily with disinfectant is a smart habit."
+  },
+  {
+    "title": "Eyes and Face",
+    "image": "/assets/eyes-nose.png",
+    "info": "Touching your face — especially the eyes, nose, and mouth — is a major way viruses enter your system. Our hands frequently come into contact with germs from surfaces like elevator buttons, railings, or cash. Without realizing, we may touch our face dozens of times a day. Keeping your hands clean and resisting the urge to touch your face can greatly reduce your chances of catching infections like conjunctivitis, the flu, or common cold."
+  },
+  {
+    "title": "Keyboard",
+    "image": "/assets/keyboard.png",
+    "info": "Your keyboard can harbor thousands of bacteria per square inch, especially if you eat at your desk or rarely clean it. Skin cells, food crumbs, and oils create the perfect breeding ground for germs. Since we often touch our face after typing, an unclean keyboard poses a hidden risk. Use disinfectant wipes on your keyboard at least once a week, and wash your hands after long typing sessions."
+  },
+  {
+    "title": "Light Switches",
+    "image": "/assets/light-switch.png",
+    "info": "Light switches are touched by nearly everyone but rarely cleaned. These surfaces can collect bacteria, viruses, and even fungi over time. In shared spaces like classrooms, offices, or homes with multiple members, this becomes a high-risk zone. Cleaning light switches every few days using a mild disinfectant can prevent germ transfer and improve your indoor hygiene levels significantly."
+  }
+]

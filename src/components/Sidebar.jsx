@@ -11,7 +11,6 @@ export default function Sidebar({ activeTab, setActiveTab, sidebarOpen, setSideb
   const tabs = [
     { name: "Home", path: "/home" },
     { name: "Exercise & Yoga", path: "/exercise" },
-    { name: "Nutrients & Diet", path: "/nutrition" },
     { name: "Meditation & Mindfulness", path: "/meditation" },
     { name: "Disease Info", path: "/disease-info" },
     { name: "Hygiene Guide", path: "/hygiene" },

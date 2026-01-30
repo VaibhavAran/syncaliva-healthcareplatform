@@ -12,7 +12,6 @@ import LandingPage from "./pages/landing";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Exercise from "./pages/Exercise";
-import Nutrition from "./pages/Nutrition";
 import Meditation from "./pages/Meditation";
 import DiseaseInfo from "./pages/DiseaseInfo";
 import Hygiene from "./pages/Hygiene";
@@ -46,14 +45,7 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
-            path="/nutrition"
-            element={
-              <ProtectedRoute>
-                <Layout>{(activeTab) => <Nutrition activeTab={activeTab} />}</Layout>
-              </ProtectedRoute>
-            }
-          />
+          
           <Route
             path="/meditation"
             element={

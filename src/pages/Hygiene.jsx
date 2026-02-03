@@ -89,7 +89,6 @@ export default function Hygiene() {
           </ul>
         </section>
 
-        {/* Hygiene Library */}
         <section className="library">
           <h2>📚 Hygiene Tips Library</h2>
 

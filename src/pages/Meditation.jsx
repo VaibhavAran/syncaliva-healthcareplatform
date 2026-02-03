@@ -100,7 +100,6 @@ export default function Meditation() {
           speak(`${newVal} seconds left`);
         }
 
-        // body scan / gratitude periodic guidance
         if (selectedSession?.id === "body-scan" && newVal % 30 === 0) {
           speak("Notice the sensations in your body, from head to toe.");
         }
